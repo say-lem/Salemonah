@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply m-0 p-0 box-border;
+  }
+  html {
+    @apply scroll-smooth;
+  }
+  body {
+    @apply bg-bg text-text font-body leading-[1.6] overflow-x-hidden;
+  }
+  ::selection {
+    @apply bg-gold text-bg;
+  }
+  a {
+    @apply text-inherit no-underline;
+  }
+}

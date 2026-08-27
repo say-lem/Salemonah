@@ -1,0 +1,15 @@
+export const TAGS = [
+  "JavaScript",
+  "Typescript",
+  "React",
+  "Next.js",
+  "Node.js",
+  "Express.js",
+  "Nest JS",
+  "MySQL",
+  "PostgreSQL",
+  "MongoDB",
+  "Redis",
+  "Docker",
+  "Firebase",
+];
