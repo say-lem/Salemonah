@@ -33,7 +33,7 @@ export default function Projects() {
     <section id="work" className={SECTION}>
       <Reveal>
         <div className={EYEBROW}>selected work</div>
-        <h2 className={SECTION_TITLE}>Projects — replace with the real ones</h2>
+        <h2 className={SECTION_TITLE}>Projects</h2>
         <div className="grid grid-cols-2 gap-[18px] max-sm:grid-cols-1">
           {PROJECTS.map((p) => (
             <div

@@ -3,28 +3,34 @@ import { SECTION, EYEBROW, SECTION_TITLE } from "@/lib/styles";
 
 const ITEMS = [
   {
-    date: "2025 — present",
-    company: "Tenece Professional services",
-    role: "Role Title @ Company Name",
-    desc: "One or two lines on scope and impact. Numbers help — users, performance, revenue, whatever's true.",
+    date: "Dec 2024 - Jan 2026",
+    company: "Genesys Tech Hub",
+    role: "Fullstak Developer",
+    desc: "Led a team in the development of a product management application for small scale Businesses leveraging NextJs, Typescript, Redux for the front end then Expressjs postgressQl and redis for the backend, \nIntegrated robust error handling, validation, and logging mechanisms to improve system reliability, ensuring system consistency, fault tolerance, and implementing offline-first collaboration",
   },
   {
-    date: "May 24 - January 25",
+    date: "April 2024 - march 2025",
+    company: "SafeGeeg",
+    role: "Frontend Developer",
+    desc: "Developed the full gig economy platform, including the chat section, Task bidding section, and payment buttons, which drove customer adoption and directly contributed to platform growth.",
+  },
+  {
+    date: "May 2024 - January 2025",
     company: "Hordanso LLC",
     role: "Contract Frontend developer",
-    desc: "What you owned, what shipped, what you learned the hard way.",
+    desc: "Developed and maintained responsive web applications leveraging NextJs, Typescript, Redux and Docker, enabling optimized service delivery, \nCollaborated with developers, testers, and QA engineers to build a suite of applications ensuring stability and scalability.",
   },
   {
     date: "Sept 2019 — Jan 2020",
     company: "Tenece Professional services",
     role: "front-end Intern",
-    desc: ".",
+    desc: "Started my Journey in software development,\nDeveloped static pages and basic ui's under supervision in the frontend team",
   },
   {
     date: "2017 — 2022",
     company: " University of Nigeria",
     role: "Bachelor of Science in Computer Science",
-    desc: "What you owned, what shipped, what you learned the hard way.",
+    desc: "",
   },
 ];
 
@@ -52,7 +58,9 @@ export default function Experience() {
               <div className="font-display text-[1.1rem] my-1.5">
                 {item.role}
               </div>
-              <div className="text-text-dim text-[0.92rem]">{item.desc}</div>
+              <div className="text-text-dim text-[0.92rem] whitespace-pre-line">
+                {item.desc}
+              </div>
             </div>
           ))}
         </div>
