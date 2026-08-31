@@ -9,6 +9,12 @@ const ITEMS = [
     desc: "Led a team in the development of a product management application for small scale Businesses leveraging NextJs, Typescript, Redux for the front end then Expressjs postgressQl and redis for the backend, \nIntegrated robust error handling, validation, and logging mechanisms to improve system reliability, ensuring system consistency, fault tolerance, and implementing offline-first collaboration",
   },
   {
+    date: "Febuary 2025 - Dec 2025",
+    company: "Luminevents",
+    role: "Contract Frontend Developer",
+    desc: "Developed the full ticketing platform frontend, including the Event creation sections, ticket purchase section, and payment buttons, which directly contributed to platform growth.",
+  },
+  {
     date: "April 2024 - march 2025",
     company: "SafeGeeg",
     role: "Frontend Developer",
